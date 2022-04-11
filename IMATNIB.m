@@ -26,6 +26,6 @@ end
 [val, rank] = sort(gout,'descend');
 
 Indselect = zeros(nVars,1);
-for i=1:10
+for i=1:gn
     Indselect(Group{rank(i)}) = 1;
 end
