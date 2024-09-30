@@ -4,7 +4,7 @@ function [up, zp] = ProjCSimplexGL_Gruobi_v2(u,k,Group,h)
 g = length(Group);
 
 H1 = eye(n);
-f1 = -u;
+f1 = -2*u;
 
 H2 = zeros(g);
 f2 = zeros(g,1);
